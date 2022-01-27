@@ -28,12 +28,13 @@ export default {
 }
 </script>
 
+
 <style lang="scss" scoped>
-@import '@/styles/variables.scss';
+    @import '@/styles/variables.scss';
 
     header {
         margin: 0 auto;
-        width: 900px;
+        width: $max-width;
         display: flex;
         justify-content: space-between;
         align-items: center;
