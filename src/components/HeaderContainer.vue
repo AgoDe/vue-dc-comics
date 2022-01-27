@@ -33,7 +33,6 @@ export default {
 
     header {
         margin: 0 auto;
-        height: 80px;
         width: 900px;
         display: flex;
         justify-content: space-between;
@@ -53,9 +52,9 @@ export default {
             li {
                 font-size: 13px;
                 padding:  0 15px;
-                height: 100%;
+                height: 80px;
                 line-height: 80px;
-                border-bottom: 4px transparent solid;
+                border-bottom: 5px transparent solid;
 
                 &:hover {
                     border-color: $tipically-blue;
