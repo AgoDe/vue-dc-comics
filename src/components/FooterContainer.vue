@@ -5,19 +5,21 @@
 
         <footer-mapsite/>
 
-        
-
+        <footer-social/>
 
     </footer>
 </template>
 
 <script>
-import FooterSpecial from './FooterSpecial.vue'
-import FooterMapsite from './FooterMapsite.vue'
+import FooterSpecial from './FooterSpecial.vue';
+import FooterMapsite from './FooterMapsite.vue';
+import FooterSocial from './FooterSocial.vue';
+
 export default {
     components: {
         FooterSpecial,
         FooterMapsite,
+        FooterSocial,
     }
     
     

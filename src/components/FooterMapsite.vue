@@ -113,8 +113,6 @@ export default {
                 bottom: -60px;
                 right: 50px;
             }
-           
         }
-
     }
 </style>
