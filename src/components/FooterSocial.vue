@@ -34,7 +34,7 @@ export default {
     .footer-social {
         background: #333;
         position: relative;
-        z-index: 1001;
+        z-index: 1;
 
         .container {
             width: $max-width;

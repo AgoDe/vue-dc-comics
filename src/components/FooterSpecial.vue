@@ -49,7 +49,7 @@ export default {
 
     .footer-special {
         position: relative;
-        z-index: 1001;
+        z-index: 1;
         padding: 30px 0;
         background-color: $tipically-blue;
 

@@ -1,6 +1,6 @@
 <template>
     <main>
-         inserire qui i contenuti 
+         <div class="jumbotron"></div>
     </main>
 </template>
 
@@ -15,8 +15,13 @@ export default {
     main {
         background: black;
         color: white;
-        height: 200px;
         line-height: 200px;
         text-align: center;
+
+        .jumbotron {
+            height: 400px;
+            background-image: url(../assets/img/jumbotron.jpg);
+            background-size: cover;
+        }
     }
 </style>
