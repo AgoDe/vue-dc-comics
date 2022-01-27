@@ -59,7 +59,6 @@ export default {
 
                 &:hover {
                     border-color: $tipically-blue;
-                    
                 }
 
             }

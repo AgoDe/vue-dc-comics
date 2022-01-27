@@ -48,6 +48,8 @@ export default {
     @import '@/styles/variables.scss';
 
     .footer-special {
+        position: relative;
+        z-index: 1001;
         padding: 30px 0;
         background-color: $tipically-blue;
 
