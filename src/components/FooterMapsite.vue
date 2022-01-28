@@ -101,7 +101,7 @@ export default {
                         li {
                             font-size: 9px;
                             color: #888;
-                            padding: 4px;
+                            padding: 4px 0;
                         }
                     }
                 }

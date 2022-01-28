@@ -6,16 +6,8 @@
 
         <nav>
             <ul>
-                <li>CHARACTERS</li>
-                <li>COMICS</li>
-                <li>MOVIES</li>
-                <li>TV</li>
-                <li>GAMES</li>
-                <li>COLLECTIBLES</li>
-                <li>VIDEOS</li>
-                <li>FANS</li>
-                <li>NEWS</li>
-                <li>SHOP</li>
+                <!-- dicitura per usare un props, nel v-for è necessaria una :key univoca -->
+                <li v-for="(item, index) in navItems" :key="index"> {{ item }} </li>
             </ul>
         </nav>
 
@@ -24,6 +16,11 @@
 
 <script>
 export default {
+
+    // dicitura per "pescare" un data dalla app.vue
+    props: {
+        navItems : Array,
+    }
     
 }
 </script>
